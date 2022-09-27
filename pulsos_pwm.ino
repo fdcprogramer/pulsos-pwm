@@ -1,6 +1,6 @@
 //en este codigo se busca generar una señal pwm y a su vez señales analogas haciendo uso de los registros de la tarjeta seleccionada 
 #include <LiquidCrystal_I2C.h>
-#include <TimerOne.h>
+#include<eeprom.h>
 
 
 //variables
@@ -27,6 +27,15 @@ byte colPins[COLS] = {8, 9, 10, 11}; //conexion de los pines par las columnas
 Keypad teclado = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
 //configuracion del timer 1
+
+noInterrupts();// esta funcion desabilita todas las interrupciones mientras se configura el timer
+TCCR1A = 0;
+TCCR1B = 0;
+TCCR1C = 0;
+TCNT1L = 0;
+TCNT1H = 0;
+
+//Registro de comparacion para el Timer
 
 
 
