@@ -1,3 +1,5 @@
+#include <Arduino.h>
+#line 1 "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/pulsos_pwm.ino"
 //en este codigo se busca generar una señal pwm y a su vez señales analogas haciendo uso de los registros de la tarjeta seleccionada 
 #include <LiquidCrystal_I2C.h>
 #include<Keypad.h>
@@ -27,21 +29,16 @@ byte colPins[COLS] = {8, 9, 10, 11}; //conexion de los pines par las columnas
 
 Keypad teclado = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
+#line 30 "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/pulsos_pwm.ino"
+void setup();
+#line 30 "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/pulsos_pwm.ino"
 void setup() {
 lcd.init();
 lcd.backlight();
 lcd.setCursor(2,0);
 lcd.print("Simulador de Ecus");
-lcd.setCursor(7,1);
-lcd.print("version 1.0");
-lcd.setCursor(9,2);
+lcd.setCursor(9,1);
 lcd.print("CHIPTUNNIG");
-lcd.setCursor(2,3);
-lcd.print("FDC ELECTRONIC'S");
-delay(1500);
-lcd.clear();
-
-
 
 
 
@@ -55,12 +52,12 @@ TCNT3H = 0;
 TCNT3L = 0;
 
 //Registro de comparacion para el Timer
-//
+
 TCCR1B |= (<<WGM30)
 
 
-
 }
+
 
 
 

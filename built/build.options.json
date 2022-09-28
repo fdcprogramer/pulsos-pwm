@@ -1,0 +1,12 @@
+{
+  "additionalFiles": "",
+  "builtInLibrariesFolders": "/home/axel/Descargas/arduino-1.8.19/libraries",
+  "builtInToolsFolders": "/home/axel/Descargas/arduino-1.8.19/tools-builder,/home/axel/Descargas/arduino-1.8.19/hardware/tools/avr,/home/axel/.arduino15/packages",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.path=/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/built,build.warn_data_percentage=75",
+  "fqbn": "LGT8fx Boards:avr:328:arduino_isp=disable,clock_source=internal,clock=32MHz,variant=modelP",
+  "hardwareFolders": "/home/axel/Descargas/arduino-1.8.19/hardware,/home/axel/.arduino15/packages",
+  "otherLibrariesFolders": "/home/axel/Arduino/libraries",
+  "runtime.ide.version": "10819",
+  "sketchLocation": "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/pulsos_pwm.ino"
+}

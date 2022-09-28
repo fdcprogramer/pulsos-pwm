@@ -1,0 +1,7 @@
+{
+    "sketch": "pulsos_pwm.ino",
+    "output": "built",
+    "configuration": "arduino_isp=disable,clock_source=internal,clock=32MHz,variant=modelP",
+    "board": "LGT8fx Boards:avr:328",
+    "port": "/dev/ttyACM0"
+}

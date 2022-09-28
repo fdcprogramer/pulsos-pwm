@@ -1,0 +1,57 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/axel/.arduino15/packages/LGT8fx Boards/hardware/avr/1.0.6/cores/lgt8f"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/axel/.arduino15/packages/LGT8fx Boards/hardware/avr/1.0.6/variants/lgt8fx8p"
+  },
+  {
+    "Sourcefile": "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/built/sketch/pulsos_pwm.ino.cpp",
+    "Include": "LiquidCrystal_I2C.h",
+    "Includepath": "/home/axel/Arduino/libraries/LiquidCrystal_I2C"
+  },
+  {
+    "Sourcefile": "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/built/sketch/pulsos_pwm.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/home/axel/.arduino15/packages/LGT8fx Boards/hardware/avr/1.0.6/libraries/Wire"
+  },
+  {
+    "Sourcefile": "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/built/sketch/pulsos_pwm.ino.cpp",
+    "Include": "Keypad.h",
+    "Includepath": "/home/axel/Arduino/libraries/Keypad/src"
+  },
+  {
+    "Sourcefile": "/home/axel/Documentos/Proyectos Vscode/proyectos arduino/pulsos pwm/built/sketch/pulsos_pwm.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/axel/Arduino/libraries/LiquidCrystal_I2C/LiquidCrystal_I2C.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/axel/.arduino15/packages/LGT8fx Boards/hardware/avr/1.0.6/libraries/Wire/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/axel/.arduino15/packages/LGT8fx Boards/hardware/avr/1.0.6/libraries/Wire/utility/twi.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/axel/Arduino/libraries/Keypad/src/Key.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/axel/Arduino/libraries/Keypad/src/Keypad.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
