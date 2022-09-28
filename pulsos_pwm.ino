@@ -54,9 +54,16 @@ TCCR3C = 0;
 TCNT3H = 0;
 TCNT3L = 0;
 
-//Registro de comparacion para el Timer
-//
-TCCR1B |= (<<WGM30)
+/*
+A partr de esta linea se inica la  configuracion del timer para generar las señales
+*/
+OC3A= 1;
+TCCR3A = 0;
+TCCR3B |= (1 <<WGM30 );
+TCCR3C = 0;
+TCNT3H = 65.536;
+TCNT3L = 0;
+
 
 
 
